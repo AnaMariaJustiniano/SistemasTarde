@@ -6,7 +6,7 @@ include 'persona.php';
 if(!isset($_SESSION['personas'])){
     $_SESSION['personas']=[];
 }
-/* --- NUEVO: Si se presiona el botón de borrar lista --- */
+
 if($_SERVER["REQUEST_METHOD"]=="POST"){
     $nombre=($_POST["nombre"]);
     $telefono=($_POST["telefono"]);

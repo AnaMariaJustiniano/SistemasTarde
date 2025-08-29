@@ -2,7 +2,7 @@
 class persona{
     //atributos
     public $nombre;
-    public $telefon;
+    public $telefono;
     public $edad;
 //metodo constructor
 public function __construct($nombre=null, $telefono=null, $edad=null) {
